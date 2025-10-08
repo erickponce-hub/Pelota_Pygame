@@ -10,7 +10,7 @@ pantalla = pygame.display.set_mode((ANCHO, ALTO))
 pygame.display.set_caption("Pelota en pygame ⚽")
 
 clock = pygame.time.Clock()
-FPS = 60
+FPS = 80
 
 # ----------------------
 # 2) DATOS DE LA PELOTA
@@ -20,8 +20,8 @@ pelota = pygame.Rect(ANCHO//2 - tam//2, ALTO//2 - tam//2, tam, tam)
 vx, vy = 6, 5
 
 # Colores iniciales
-color_pelota = (250, 120, 70)
-color_fondo = (30, 30, 40)
+color_pelota = (250, 130, 150)
+color_fondo = (32, 32, 42)
 
 # -----------------------
 # 3) SONIDO OPCIONAL
